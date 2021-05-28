@@ -1,8 +1,7 @@
- import react from 'react';
- import SlotDropdown from '../../Components/SlotDropdown';
+ import Dropdown from '../../components/Dropdown';
+ import {createSlots} from '../../functions/generateData';
 
  export default function CreateSlots(){
-    const slots = [1,2,3]
      return(
      <>
         <div>
@@ -21,7 +20,7 @@
                         <label>Time</label>
                     </td>
                     <td>
-                        <SlotDropdown slots={slots}/>
+                        <Dropdown values={createSlots()}/>
                     </td>
                 </tr>
                 </table>

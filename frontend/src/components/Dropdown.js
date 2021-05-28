@@ -1,10 +1,8 @@
-import react from 'react';
-
-export default function SlotDropdown({slots}){
+export default function Dropdown({values}){
     return(
         <select>
             {
-                slots.map((slot)=>{
+                values.map((slot)=>{
                     return(
                         <option value={slot}>{slot}</option>
                         )
