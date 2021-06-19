@@ -5,7 +5,6 @@ export default function Home() {
         <h1>
             This is Home Page
         </h1>
-        <a href="/admin/slot/new">Create Slot</a>
         </>
     ); 
 }

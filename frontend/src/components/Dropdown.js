@@ -6,7 +6,7 @@ export default function Dropdown({values}){
                     return(
                         <option value={slot}>{slot}</option>
                         )
-            })
+                })
             }
         </select>
     );
