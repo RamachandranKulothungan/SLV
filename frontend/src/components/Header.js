@@ -10,12 +10,12 @@ export default function Header(){
     setMenuOpen(p=>!p)
   }
     return(
-        <div className="header" style={{border: '3px black'}}>
-          <Link className="" to="/">
+        <div className="navbar">
+          <Link className="" to="/" position='top'>
             SLV
           </Link>
-          <div className="" id="" style={{position: 'relative', left: '85%', width: '15%'}}>
-            <i className="fas fa-bars" style={{position: 'relative', left: '90%'}} onClick={handleMenuClick}/>
+          <div className="" id="">
+            <i className="fas fa-bars" onClick={handleMenuClick}/>
             {
               menuOpen? 
                 <div className="card">
