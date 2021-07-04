@@ -1,6 +1,4 @@
 import "./App.css";
-import $ from "jquery";
-import Popper from "popper.js";
 import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";

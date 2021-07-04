@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import $ from "jquery";
+import React from "react";
 export default function Header() {
   return (
     <div className="">
