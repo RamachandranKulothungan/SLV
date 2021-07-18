@@ -4,7 +4,7 @@ export default function Header() {
     <div className="">
       <nav className="navbar" role="navigation">
         <a className="nav-item navbar-brand" href="/">
-          SLV
+          <h2>SLV</h2>
         </a>
         <div className="nav-item">
           <button

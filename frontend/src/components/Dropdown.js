@@ -1,13 +1,15 @@
-export default function Dropdown({values}){
-    return(
-        <select>
-            {
-                values.map((slot)=>{
-                    return(
-                        <option value={slot}>{slot}</option>
-                        )
-                })
-            }
-        </select>
-    );
+export default function Dropdown({ values }) {
+  return (
+    <>
+      <select disabled={values.length === 1 ? true : false}>
+        {values.map((value, index) => {
+          return (
+            <option value={value} key={index}>
+              {value}
+            </option>
+          );
+        })}
+      </select>
+    </>
+  );
 }
