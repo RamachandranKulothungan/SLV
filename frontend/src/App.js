@@ -7,6 +7,7 @@ import CheckBookings from "./pages/AuthenticatedRoutes/CheckBookings";
 import CreateSlots from "./pages/AuthenticatedRoutes/CreateSlots";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import InfoEntry from "./pages/InfoEntry";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
         <Switch>
           <Route path="/book-slot" exact>
             <Booking />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/add-info" exact>
+            <InfoEntry />
           </Route>
         </Switch>
         <Switch>
